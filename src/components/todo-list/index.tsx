@@ -48,7 +48,7 @@ export function TodoList({}: Props) {
   }
 
   return (
-    <div className='flex items-center pl-4 pr-4 flex-col'>
+    <div className='flex items-center pl-4 pr-4 gap-2 flex-col'>
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}

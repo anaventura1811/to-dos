@@ -8,7 +8,7 @@ export function Dashboard({}: Props) {
   return (
     <>
       <Header />
-      <div className='flex flex-col justify-start w-[90vw] min-h-[80vh] p-5 font-sans items-center mt-[10vw] mb-[10vw] ml-auto mr-auto rounded-xl bg-[rgb(22,26,43)]'>
+      <div className='flex flex-col justify-start w-[90vw] min-h-[80vh] p-5 font-sans items-center mt-[2vw] mb-[10vw] ml-auto mr-auto rounded-xl bg-[rgb(22,26,43)]'>
         <TodoList />
       </div>
     </>
